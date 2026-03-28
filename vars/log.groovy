@@ -1,3 +1,3 @@
-def info(msg) {
-	echo "INFO: ${msg}"
+def info(script,msg) {
+	script.echo "INFO: ${msg}"
 }
