@@ -1,4 +1,4 @@
-def info(string msg) {
+def info(String msg) {
 	echo "INFO: ${msg}"
 }
 
