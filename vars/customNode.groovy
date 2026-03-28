@@ -1,6 +1,4 @@
 def call(){
-  node {
-    echo 'starting ...'
-    sh 'pwd'
-  }
+  echo 'starting ...'
+  sh 'pwd'
 }
