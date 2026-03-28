@@ -2,6 +2,6 @@ def info(String msg) {
 	echo "INFO: ${msg}"
 }
 
-def call() {
-	echo "you call me, I answer !!"
+def call(name = "sall") {
+	echo "you call me, I answer !!, my name is ${name}"
 }
